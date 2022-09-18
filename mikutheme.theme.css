@@ -1,0 +1,42 @@
+/**
+* @name mikutheme
+* @version 1
+* @description This theme is compatible with Better Discord. And it's so supercalifragilisticexpialidocious with Miku's smile-face, it also has a big change for members avatar
+* @author winky
+*/
+@import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url('https://codedotspectra.github.io/themes/core/custom-font.css');
+:root {
+/*set theme color*/
+--themeColor1: #438BA2FF;
+--themeColor2: #438BA2FF;
+--customFont: 'Indie Flower'; /*set font*/
+--homeImage: url('https://i.imgur.com/GQadGXU.png'); /*set image for home button*/
+--homeImageSize: cover;
+--backgroundColor: #0d0d0d;
+--backgroundImage: url('https://i.imgur.com/NS7ntho.jpg'); /*set background image, can replace with other URL*/
+--backgroundPosition: center; /*position of background*/
+--backgroundSize: cover;
+--backgroundRepeat: no-repeat; /*non-repeat*/
+--backgroundBlur: 2px; /*set blur of background*/
+--backgroundOpacity: 0.3; /*set opacity of background*/
+--popup-background: url('https://i.imgur.com/kwiiGzk.jpg');
+--rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+--rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+--rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+--rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+--rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+--rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+--rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+--rs-online-color: #43b581; /* Colour for online status */
+--rs-idle-color: #faa61a; /* Colour for idle status */
+--rs-dnd-color: #f04747; /* Colour for dnd status */
+--rs-offline-color: #636b75; /* Colour for offline status */
+--rs-streaming-color: #643da7; /* Colour for streaming status */
+--rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+--rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+--rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
